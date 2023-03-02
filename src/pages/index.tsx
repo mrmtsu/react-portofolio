@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white">
+      <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="font-burtons text-xl">developedbyed</h1>
@@ -55,6 +55,24 @@ export default function Home() {
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image src={deved} layout="fill" objectFit="cover" alt={""} />
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Services I offer</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Since the beginning of my journey as a freel developer, I have
+              done remote work for
+              <span className="text-teal-500"> agencies </span>
+              consulted for <span className="text-teal-500">startups </span>
+              and collaborated with talanted people to create digital products
+              for both business and consumer use.
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              I offer from a wide range of services, including programming and
+              teaching.
+            </p>
           </div>
         </section>
       </main>
